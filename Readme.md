@@ -17,9 +17,9 @@
 
 ```mermaid
 flowchart LR
-    A[Client Request<br/>http://localhost:8080/en-us?x=1] --> B[Nginx Container]
+    A[Client Request<br/>localhost:8080/en-us] --> B[Nginx Container]
     B --> C[return 301<br/>REDIRECT_TO + request_uri]
-    C --> D[https://www.microsoft.com/en-us?x=1]
+    C --> D[Target URL<br/>www.microsoft.com/en-us]
 ```
 
 ## 📦 ファイル構成
