@@ -1,0 +1,20 @@
+# VCS
+.git
+.gitignore
+
+# Docs and metadata
+LICENSE
+Readme.md
+Readme-en.md
+
+# Local/dev files
+.vscode
+.idea
+.env
+.env.*
+*.log
+tmp
+temp
+
+# Docker compose is not needed in image build context
+docker-compose.yml
